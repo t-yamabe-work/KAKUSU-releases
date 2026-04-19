@@ -5,6 +5,27 @@
     <link>https://raw.githubusercontent.com/t-yamabe-work/KAKUSU-releases/main/appcast.xml</link>
     <description>KAKUSU 自動更新フィード（Sparkle 2.x）</description>
     <language>ja</language>
-    <!-- Phase D で v0.1.0 item を追加予定。骨格のみ。 -->
+
+    <item>
+      <title>KAKUSU 0.1.0</title>
+      <pubDate>Mon, 20 Apr 2026 03:18:09 +0900</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>KAKUSU v0.1.0 — 初期リリース（Sparkle 基盤 + 復元アプリ）</h2>
+        <ul>
+          <li>KAKUSU復元.app（ファイル/テキスト復元、完全動作、XCTest 8件グリーン）</li>
+          <li>KAKUSU.app（Sparkle 自動更新基盤、サイドバー骨格のみ、9画面は v0.2.0）</li>
+          <li>Core 層（AliasMap/Scanner/Masker/Unmasker、XCTest 28件グリーン）</li>
+        </ul>
+        <p>動作要件: macOS 14.0 以降（Apple Silicon / Intel 両対応、universal binary）</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/t-yamabe-work/KAKUSU-releases/releases/download/v0.1.0/KAKUSU-0.1.0.zip"
+        length="1208206"
+        type="application/octet-stream"
+        sparkle:edSignature="1ULJRjt9ZHQwkqtg40oqDy7+o4bZeIZbut1oG6CMkOKCQi34JqLxRTwgkGl//UE21RuGMJS+gbjdwe6H7mimBg==" />
+    </item>
   </channel>
 </rss>
