@@ -1,0 +1,11 @@
+# Release バイナリは Release assets として配布、repo には含めない
+dist/
+
+# macOS
+.DS_Store
+
+# Sparkle 秘密鍵（絶対に含めない）
+sparkle_keys/
+*_private_key*
+*ed25519_priv*
+.verify/

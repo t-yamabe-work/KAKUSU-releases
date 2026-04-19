@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KAKUSU</title>
+    <link>https://raw.githubusercontent.com/t-yamabe-work/KAKUSU-releases/main/appcast.xml</link>
+    <description>KAKUSU 自動更新フィード（Sparkle 2.x）</description>
+    <language>ja</language>
+    <!-- Phase D で v0.1.0 item を追加予定。骨格のみ。 -->
+  </channel>
+</rss>
