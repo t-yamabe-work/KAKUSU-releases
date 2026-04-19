@@ -8,7 +8,7 @@
 
     <item>
       <title>KAKUSU 0.1.0</title>
-      <pubDate>Mon, 20 Apr 2026 03:18:09 +0900</pubDate>
+      <pubDate>Mon, 20 Apr 2026 06:23:06 +0900</pubDate>
       <sparkle:version>1</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -23,9 +23,9 @@
       ]]></description>
       <enclosure
         url="https://github.com/t-yamabe-work/KAKUSU-releases/releases/download/v0.1.0/KAKUSU-0.1.0.zip"
-        length="1208206"
+        length="1209526"
         type="application/octet-stream"
-        sparkle:edSignature="1ULJRjt9ZHQwkqtg40oqDy7+o4bZeIZbut1oG6CMkOKCQi34JqLxRTwgkGl//UE21RuGMJS+gbjdwe6H7mimBg==" />
+        sparkle:edSignature="sRdb6h6N95D/Mxb3tyDs5MdEq1dM5Aw35g9p7ZxnVhYJWccPl92zFUppO9Mjde4iaCZSWLo9Mh6NaGthV4TpDA==" />
     </item>
   </channel>
 </rss>
