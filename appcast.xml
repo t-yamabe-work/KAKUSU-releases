@@ -7,6 +7,32 @@
     <language>ja</language>
 
     <item>
+      <title>KAKUSU 1.0.0</title>
+      <pubDate>Tue, 21 Apr 2026 11:00:00 +0900</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>KAKUSU v1.0.0 — 正式リリース（機能完備版）</h2>
+        <ul>
+          <li>KAKUSU.app に 9 画面（スキャン/登録/追加/一覧/マスク/復元/配布/履歴/設定）を全て搭載</li>
+          <li>ScanView: 新規候補の除外 + 既存エントリへの統合（MergeTargetPickerSheet）+ 直前の統合を取消</li>
+          <li>ListView: EditEntrySheet による編集機能（aliases_real / カテゴリ / 役職 / 備考）</li>
+          <li>メニュー「更新を確認…」: GitHub Releases API ベースの軽量チェッカー（ad-hoc 署名でも動作）</li>
+          <li>Sparkle フレームワーク自体はバンドル維持（Developer ID 移行時に完全自動更新へ切替可能な設計）</li>
+          <li>cli/import_roster.py, cli/augment_aliases.py: 名簿インポート・表記ゆれ自動追加</li>
+        </ul>
+        <p>動作要件: macOS 14.0 以降（Apple Silicon）</p>
+        <p><strong>既知の制限</strong>: ad-hoc 署名のため初回起動時に Gatekeeper 警告が表示されます。右クリック→開くで許可してください。</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/t-yamabe-work/KAKUSU-releases/releases/download/v1.0.0/KAKUSU-1.0.0.zip"
+        length="1851712"
+        type="application/octet-stream"
+        sparkle:edSignature="daZvh7HKZKpEjBowatzauRIfv19VGeYN3sOVj/63SGEVkiZlxME5Izt2oii4S7I2PJ5PKd5gLRcihyDL/8yKDw==" />
+    </item>
+
+    <item>
       <title>KAKUSU 0.1.0</title>
       <pubDate>Mon, 20 Apr 2026 06:23:06 +0900</pubDate>
       <sparkle:version>1</sparkle:version>
